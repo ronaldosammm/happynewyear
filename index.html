@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tahun Baru Kita ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="night">
+
+<button id="nightBtn">🌙</button>
+
+<div id="musicControl">
+    <button id="musicBtn">▶️</button>
+</div>
+<audio id="bgMusic" src="music.mp3" loop></audio>
+
+<canvas id="stars"></canvas>
+<canvas id="fireworks"></canvas>
+<audio id="fireSound" src="petasan.mp3"></audio>
+
+<div id="passwordScreen" class="screen active">
+    <div>
+        <h2>Masukkan Nama Kamu ❤️</h2>
+        <input type="password" id="passwordInput">
+        <button id="passwordBtn">Masuk</button>
+        <p id="error"></p>
+    </div>
+</div>
+
+<div id="startScreen" class="screen">
+    <button id="startBtn">🎉 Rayakan Tahun Baru 🎉</button>
+</div>
+
+<div id="countdownScreen" class="screen">
+    <h1 id="countdown">5</h1>
+</div>
+
+<div id="textScreen" class="screen">
+    <p id="typingText"></p>
+</div>
+
+<div id="galleryScreen" class="screen"></div>
+
+<div id="endingScreen" class="screen">
+    <h1 id="endingText">Aku Sayang Kamu ❤️</h1>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
